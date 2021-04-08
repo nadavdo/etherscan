@@ -1,0 +1,35 @@
+.table {
+  border: solid 1px #eaeaea;
+  width: 90%;
+  max-Width: 90%;
+}
+    
+    
+   
+    .th {
+        border-Spacing: 0;
+        color: #949ca3;
+        vertical-Align: middle;
+        font-Weight: bold;
+        border-Bottom: solid 1px #eaeaea;
+    }
+    .tr {
+      border-Bottom: 1px solid #eaeaea;
+      height: 60px;
+    }
+  
+    .td {
+      line-Height: 30px;
+      min-Height: 55px;
+      vertical-Align: middle;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-Space: nowrap;
+      padding-Right: 5px;
+      color: black;
+      border-Right: solid 1px #eaeaea;
+      
+      }
+      td:last-child {
+        border-Right: none;
+      }
